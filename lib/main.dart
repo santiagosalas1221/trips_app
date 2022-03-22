@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'description_place.dart';
 import 'review_list.dart';
 import 'gradient_back.dart';
 
 void main() {
+//Barra de notificaciones del sistema transparente.
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+      statusBarColor: Colors.transparent,
+      statusBarBrightness: Brightness.light
+  ));
   runApp(const MyApp());
 }
 
