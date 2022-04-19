@@ -1,5 +1,5 @@
 # trips_app
 
-A new Flutter project.
+App, realizada en flutter, manejando widgets con estados. 
 
 
